@@ -1,0 +1,73 @@
+* {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  /* scroll-behavior: smooth; */
+  scroll-margin: 100px;
+}
+
+html {
+  overflow-y: overlay;
+  width: 100%;
+}
+
+body.light {
+    background-color: whitesmoke;
+    --generic-text-color: black;
+    --bg-color: whitesmoke;
+    --cards-color: whitesmoke;
+    
+  
+    margin: 0;
+  }
+  
+  body.dark {
+    background-color: #212121;
+    --generic-text-color: #ffffff;
+    --bg-color: #2b2b2b;;
+    --cards-color: #383838;
+  
+    margin: 0;
+  }
+
+.sad-emoji-gif {
+  width: 100px;
+}
+
+.location-not-found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: -25px; */
+    margin-bottom: 16px;
+    position: relative;
+    bottom: 70px;
+    color: var(--generic-text-color);
+}
+
+.notFound-title {
+    text-align: center;
+}
+
+.notFound-subtitle {
+    text-align: center;
+}
+
+@media all and (max-width:499px) {
+
+    .notFound-title {
+        /* text-align: center; */
+        font-size: 1.5rem;
+    }
+    
+    .notFound-subtitle {
+        /* text-align: center; */
+        font-size: 1.2rem;
+    }
+
+    .location-not-found {
+        /* margin-bottom: 146px; */
+        margin-bottom: 51px;
+        
+        bottom: 120px;
+    }
+}

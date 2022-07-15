@@ -1,0 +1,86 @@
+* {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  /* scroll-behavior: smooth; */
+  scroll-margin: 100px;
+}
+
+html {
+  overflow-y: overlay;
+  width: 100%;
+}
+
+body.light {
+  background-color: whitesmoke;
+  --generic-text-color: black;
+  --bg-color: whitesmoke;
+  --divs-color-footer: white;
+
+
+  margin: 0;
+}
+
+body.dark {
+  background-color: #212121;
+  --generic-text-color: #ffffff;
+  --bg-color: #2b2b2b;;
+  --divs-color-footer: #2b2b2b;
+
+}
+
+.footer-login {
+  background: var(--divs-color-footer);
+  padding: 30px;
+  /* padding-left: 42%; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-global {
+  background: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  padding: 5px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  /* position: relative; */
+  /* bottom: -43px; */
+}
+
+.footer-download-app {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.app-download-img {
+  cursor: pointer;
+}
+
+.download-text {
+  color: var(--generic-text-color);
+}
+
+.github-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.git-img {
+  color: white;
+}
+
+@media all and (max-width:500px) {
+
+  .app-download-img {
+    padding-bottom: 20px;
+  } 
+
+}

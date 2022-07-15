@@ -1,0 +1,36 @@
+// Text colors
+.color-primary {
+  color: #ed2e2e;
+}
+
+.color-lemon-chrome {
+  color: #ffc200;
+}
+
+.color-glazed-carrot {
+  color: #ec6927;
+}
+
+// Background colors
+.bg-primary {
+  background-color: #ed2e2e;
+}
+
+.bg-lemon-chrome {
+  background-color: #ffc200;
+}
+
+.bg-glazed-carrot {
+  background-color: #ec6927;
+}
+
+#f05656
+#f47d7d
+#fbcdcd
+
+#ffce30
+#ffd961
+#fff0c2
+
+grandient
+background: linear-gradient(132deg, rgb(237, 46, 46) 0.00%, rgb(247, 165, 165) 100.00%);
