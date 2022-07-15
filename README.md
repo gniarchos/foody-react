@@ -7,6 +7,6 @@ Based on [Efood](https://www.e-food.gr/) site and [Wolt](https://wolt.com/el/dis
 - [x] Order from plenty restaurants <br />
 - [x] Search restaurants <br />
 - [x] Apply filters <br />
-- [x] See restaurant menus <br />
+- [x] See restaurant menu <br />
 - [x] Order from restaurants
 - [x] Details about your order
