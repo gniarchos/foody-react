@@ -1,4 +1,4 @@
-# 😏 Foody - Delivery App (React)
+# 🍟 Foody - Delivery App (React)
 
 The concept idea of [my thesis](https://foody-thesis.000webhostapp.com/index.php) food delivery app redesigned using React.
 
