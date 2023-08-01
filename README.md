@@ -1,21 +1,21 @@
 # 🍟 Foody - Delivery App (React)
 
-The concept idea of [my thesis](https://foody-thesis.000webhostapp.com/index.php) food delivery app redesigned using React.
+The conceptual idea of my [thesis](https://foody-thesis.000webhostapp.com/index.php) involves redesigning a food delivery app using React.
 
-This project based on [Efood site](https://www.e-food.gr/) and [Wolt site](https://wolt.com/en/grc). It is using the Firebase Database for login/signup and for user data. The app is fetching all the data from the database.
+This project is based on the [Efood](https://www.e-food.gr/) and [Wolt](https://wolt.com/en/grc) websites. It uses the Firebase Database for login/signup and user data. The app fetches all the necessary data from the database.
 
 Made with React.
 
 ## 🛠️ Features
 
-- Order from plenty of restaurants
-- Search restaurants
+- Order from a variety of restaurants
+- Search for restaurants
 - Apply filters
-- See restaurant's menu
-- Make orders
+- View restaurant menus
+- Place orders
 - Order Summary
 - Submit and read reviews
-- PWA (standalone app) compitable
+- PWA (standalone app) compatibility
 
 ## 🚧 Made with
 
